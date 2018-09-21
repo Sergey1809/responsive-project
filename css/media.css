@@ -1,0 +1,199 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1217px) {
+    .nav-list__item {
+        margin-right: 6%;
+    }
+}
+@media only screen and (max-width : 1158px) {
+    .nav-list__item {
+        margin-right: 4%;
+    }
+}
+@media only screen and (max-width : 1060px) {
+    .nav-list__item {
+        margin-right: 3%;
+    }
+}
+@media only screen and (max-width : 1099px) {
+    .footer-nav__item {
+        padding: 0 1.5%;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .header-col-left {
+        width: 43%;
+        float: left;
+        margin-right: 2%;
+    }
+    .header-col-right {
+        width: 55%;
+        float: right;
+    }
+    .nav {
+        text-align: right;
+    }
+    .nav-list {
+        position: absolute;
+        top: 110%;
+        right: 0;
+        text-align: center;
+        background-color: rgba(33,122,159, 1);
+        padding: 0 5px;
+        width: 100%;
+    }
+    .nav-list__item {
+        display: none;
+        margin-right: 0;
+        border-bottom: 2px solid rgba(255,255,255, .8);
+        padding: 15px;
+    }
+    .nav-list__item:last-child {
+        border-bottom: 0;
+    }
+    .nav-list__item a{
+        color: #fff;
+        font-weight: 500;
+    }
+    .nav .responsive__nav {
+      display: inline-block;
+    }
+    .nav-list.responsive {
+        position: absolute;
+        right: 0;
+    }
+    .nav-list.responsive .nav-list__item {
+      display: block;
+    }
+    .active::after {
+        content: "";
+        display: none;
+    }
+    .footer .logo {
+        font: none;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1%;
+    }
+    .footer-nav {
+        float: none;
+        width: 100%;
+    }
+    .footer-nav-list {
+        text-align: center;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    body {
+        font-size: 14px;
+    }
+    .banner {
+        height: 350px;
+    }
+    .footer .col-left {
+        float: none;
+        margin-bottom: 1%;
+    }
+    .footer .col-right {
+        float: none;
+    }
+    .caption h2 {
+        font-size: 3.5em;
+    }
+    .services-heading {
+        font-size: 3em;
+        line-height: 1.2;
+    }
+}
+@media only screen and (max-width : 640px) {
+    .services-list__item {
+        max-width: 44%;
+    }
+    .services-list__item:nth-child(3n) {
+        margin-right: 5%;
+    }
+    .services-list__item:nth-child(2n) {
+        margin-right: 0;
+    }
+    .company-partners__item {
+        width: 25%;
+        margin-right: 12.5%;
+    }
+    .company-partners__item:nth-child(6n) {
+        margin-right: 12.5%;
+    }
+    .company-partners__item:nth-child(3n+1) {
+        clear: left;
+        text-align: left;
+    }
+    .company-partners__item:nth-child(3n) {
+        margin-right: 0;
+        text-align: right;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    body {
+        font-size: 13px;
+    }
+    .header-col-left {
+        width: 50%;
+    }
+    .header-col-right {
+        width: 46%;
+    }
+    .banner {
+        height: 250px;
+    }
+    .caption h2 {
+        font-size: 3em;
+        padding: 22px 0 8px 20px;
+    }
+    .caption h2:before,
+    .caption h2::after {
+        width: 18px;
+        height: 16px;
+    }
+    .services-heading {
+        font-size: 2.2em;
+        line-height: 1.2;
+    }
+    .services-list__item {
+        max-width: 100%;
+        display: block;
+        margin-right: 0;
+        border: 1px solid rgba(126, 150, 157, .8);
+        padding: 10px;
+    }
+    .services--desctop .services-list__item {
+        border: 1px solid rgba(255,255,255, .8);
+    }
+    .services-list__item:nth-child(3n) {
+        margin-right: 0;
+    }
+    .services-list__item--margin {
+        margin-bottom: 5%;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .logo {
+        padding-top: 5px;
+    }
+    .caption-wrapper {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .caption h2 {
+        font-size: 3em;
+        padding: 18px 5px 8px 15px;
+    }
+    
+}

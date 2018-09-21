@@ -1,0 +1,70 @@
+.-------15, .-------12, .-------13, .-------17, .-------18, .-------19, .-------20, .-------21, .-------23, .-------25, .-------28{
+	background: url(sprites.png) no-repeat;
+}
+
+.-------15{
+	background-position: -11px -11px ;
+	width: 55px;
+	height: 44px;
+}
+
+.-------12{
+	background-position: -11px -65px ;
+	width: 44px;
+	height: 44px;
+}
+
+.-------13{
+	background-position: -11px -121px ;
+	width: 56px;
+	height: 44px;
+}
+
+.-------17{
+	background-position: -11px -176px ;
+	width: 51px;
+	height: 44px;
+}
+
+.-------18{
+	background-position: -11px -227px ;
+	width: 51px;
+	height: 44px;
+}
+
+.-------19{
+	background-position: -11px -281px ;
+	width: 55px;
+	height: 44px;
+}
+
+.-------20{
+	background-position: -12px -336px ;
+	width: 45px;
+	height: 44px;
+}
+
+.-------21{
+	background-position: -10px -387px ;
+	width: 47px;
+	height: 44px;
+}
+
+.-------23{
+	background-position: -11px -443px ;
+	width: 47px;
+	height: 44px;
+}
+
+.-------25{
+	background-position: -11px -498.00001525878906px ;
+	width: 48px;
+	height: 44px;
+}
+
+.-------28{
+	background-position: -11px -553px ;
+	width: 49px;
+	height: 45px;
+}
+
